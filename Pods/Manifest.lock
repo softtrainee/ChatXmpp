@@ -1,0 +1,41 @@
+PODS:
+  - CocoaAsyncSocket (7.6.0)
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - FMDB (1.5.1)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - KissXML (5.2.0)
+  - xmpp-messenger-ios (1.0.1):
+    - FMDB (~> 1.0)
+    - JSQMessagesViewController
+    - JSQSystemSoundPlayer (~> 2.0)
+    - XMPPFramework
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+
+DEPENDENCIES:
+  - xmpp-messenger-ios
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  FMDB: 0c3eed7342fdf9dc03b8fe3d8de8e7a9f08bfacc
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
+  xmpp-messenger-ios: e1a81270a0d62f1307c86b493209f01853e82e6b
+  XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
+
+PODFILE CHECKSUM: de7f23e0f995b398237eed52799746abc6418b1d
+
+COCOAPODS: 1.1.1
